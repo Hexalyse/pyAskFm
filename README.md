@@ -1,6 +1,10 @@
 # pyAskFm
 Basic (and imcomplete as of now) python implementation of the Ask.fm API in its 0.8 version, which is outdate but still functional.
 
+__This API implementation uses the TRUE Ask.fm backend API, instead of interfacing with the website like every other "Ask.fm API" available on Github. This way, we can avoid CAPTCHAs altogether, and thus make a lot more requests before being limited.__  This is the only true implementation I'm aware of. Let me know if others exist.
+
+If you're curious to know how I managed to reverse-engineer their API, you can read [this blog post](https://hexaly.se/2017/06/14/how-i-reverse-engineered-the-ask-fm-api-part-1/).
+
 ### How does it work ?
 See the `AskApiDemo.py` file for an example. The rest of the code is pretty much self explanatory and if you're using it, you should logically be able to understand the code.
 
